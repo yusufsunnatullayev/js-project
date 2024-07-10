@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Course</title>
+  </head>
+  <body>
+    <section>
+      <form class="register-form">
+        <h1>Register</h1>
+        <input name="username" required type="text" placeholder="Username" />
+        <input name="email" required type="email" placeholder="Email" />
+        <input
+          name="password"
+          required
+          type="password"
+          placeholder="Password"
+        />
+        <!-- Fixed type to "password" -->
+        <button class="register-btn">Register</button>
+      </form>
+      <div class="users"></div>
+      <form class="login-form">
+        <h1>Login</h1>
+        <input required name="username" type="text" placeholder="Username" />
+        <input
+          required
+          name="password"
+          type="password"
+          placeholder="Password"
+        />
+        <button class="login-btn">Login</button>
+      </form>
+    </section>
+    <script type="module" defer src="index.js"></script>
+  </body>
+</html>
